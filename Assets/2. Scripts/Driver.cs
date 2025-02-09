@@ -3,7 +3,9 @@ using UnityEngine;
 public class Driver : MonoBehaviour
 {
     [SerializeField] float steerSpeed = 300f;
-    [SerializeField] float moveSpeed = 20f;
+    [SerializeField] public float moveSpeed = 20f;
+    [SerializeField] public float slowSpeed = 10f;
+    [SerializeField] public float boostSpeed = 30f;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
